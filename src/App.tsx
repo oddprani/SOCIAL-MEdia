@@ -8,6 +8,7 @@ import { AnimatePresence } from "framer-motion";
 import Navigation from "./components/Navigation";
 import Index from "./pages/Index";
 import Odie from "./pages/Odie";
+import UserProfile from "./pages/UserProfile";
 import Vidora from "./pages/Vidora";
 import Sensei from "./pages/Sensei";
 import Carnival from "./pages/Carnival";
@@ -27,6 +28,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/odie" element={<Odie />} />
+              <Route path="/odie/profile/:username" element={<UserProfile />} />
               <Route path="/vidora" element={<Vidora />} />
               <Route path="/sensei" element={<Sensei />} />
               <Route path="/carnival" element={<Carnival />} />

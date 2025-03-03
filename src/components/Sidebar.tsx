@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Home, Search, Film, Compass, Bell, PlusCircle, User } from 'lucide-react';
+import { Home, Search, Film, Compass, Bell, PlusCircle, User, Zap } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';

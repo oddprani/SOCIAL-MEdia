@@ -20,6 +20,7 @@ import DiscoverPage from "./pages/DiscoverPage";
 import CreatePage from "./pages/CreatePage";
 import ReelsPage from "./pages/ReelsPage";
 import SettingsPage from "./pages/SettingsPage";
+import CollegeTimetable from "./pages/CollegeTimetable";
 
 const queryClient = new QueryClient();
 
@@ -47,6 +48,7 @@ const App = () => (
               <Route path="/vidora" element={<Vidora />} />
               <Route path="/sensei" element={<Sensei />} />
               <Route path="/carnival" element={<Carnival />} />
+              <Route path="/college-timetable" element={<CollegeTimetable />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
